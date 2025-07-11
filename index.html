@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="./assets/img/icon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header_container">
+                <nav>
+                    <ul class="navigation">
+                        <li class="nav_list"><a class="nav_link" href="#contacts" title="Contacts">Contacts</a></li>
+                        <li class="nav_list"><a class="nav_link" href="#aboutme" title="info">About me</a></li>
+                        <li class="nav_list"><a class="nav_link" href="#skills" title="skills">Skills</a></li>
+                        <li class="nav_list"><a class="nav_link" href="#code" title="code">Code example</a></li>
+                        <li class="nav_list"><a class="nav_link" href="#experience" title="experience">Experience</a></li>
+                        <li class="nav_list"><a class="nav_link" href="#education" title="education">Education</a></li>
+                        <li class="nav_list"><a class="nav_link" href="#language" title="language">English language</a></li>
+                    </ul>
+                </nav>
+                <div class="header_left_side">
+                <img class="ico_profile" src="./assets/img/avatar.png" alt="avatar profile" width="200" height="200">
+                </div>
+                <div class="name_profile">
+                    <h1 class="name">Masaev Ilya</h1>
+                </div>
+        </header>
+    <main class="main">
+        <div class="main_container">
+        <section class="section section_contacts" id="contacts">
+            <h2>Contacts</h2>
+            <ul class="contacts">
+                <li class="contact_list">Telegram: @Ilya_Mas98</li>
+                <li class="contact_list">Imail: masaev.ma@mail.ru</li>
+                <li class="contact_list">Github: Masay98</li>
+                <li class="contact_list">Discord: atomic_98_</li>
+            </ul>
+        </section>
+        <section class="section section_about_me" id="aboutme">
+            <h2>About me</h2>
+            <p class="aboutme">I am a person who loves an active lifestyle and always strives for something new. Recently I became interested in web programming and decided to take a course Rsschool.</p>
+        </section>
+        <section class="section section_skills" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li class="skills_list">HTML</li>
+                <li class="skills_list">CSS</li>
+                <li class="skills_list">JavaScript</li>
+                <li class="skills_list">Visual Studio Code</li>
+                <li class="skills_list">Git</li>
+            </ul>
+        </section>
+        <section class="section section_code_example" id="code">
+            <h2>Code example</h2>
+            <p>We need a function that can transform a number (integer) into a string.</p>
+            <pre class="pre">
+                <code>
+                const assert = require('chai').assert;
+                describe("Tests", () => {
+                    it("test", () => {
+                        assert.strictEqual(numberToString(67), '67');
+                    });
+                });
+                </code>
+            </pre>
+        </section>
+        <section class="section section_experience" id="experience">
+            <h2>Experience/Projects</h2>
+            <p>Director of the EPAM</p>
+            <p>Created CV</p>
+            <a href="https://masay98.github.io/rsschool-cv/" title="cv" target="_blank">CV</a>
+        </section>
+        <section class="section section_education" id="education">
+            <h2>Education</h2>
+            <ul class="education">
+                <li class="education_list">Ufa University of Science and Technology 2023 (bachelor) Specialty: technological machines and equipment</li>
+                <li class="education_list">Rsschool: JS/FE Pre-School 2025Q2 (in process)</li>
+            </ul>
+        </section>
+        <section class="section section_language" id="language">
+            <h2>English language</h2>
+            <p>Level A1 (A2 in the process of learning with the Duolingo app)</p>
+        </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="github_logo">
+            <a href="https://github.com/Masay98" title="My Github" target="_blank">
+                <img src="./assets/img/github_logo.png" alt="Github">
+            </a>
+        </div>
+        <div class="my_github">
+            <a class="blank_link" href="https://github.com/Masay98" title="My Github" target="_blank">Masay98</a>
+        </div>
+        <div class="year">
+            <p>2025</p>
+        </div>
+        <div class="rss_logo">
+            <a href="https://rs.school/courses/javascript-ru" title="Rsschool" target="_blank">
+                <img src="./assets/img/rs-school-logo.svg" alt="Rsschool" width="100" height="32">
+            </a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
